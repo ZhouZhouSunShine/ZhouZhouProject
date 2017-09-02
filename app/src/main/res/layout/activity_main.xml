@@ -6,13 +6,20 @@
     android:layout_height="match_parent"
     tools:context="com.example.first_week_test.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <com.example.first_week_test.view.MyCustomActionBar
+        android:id="@+id/main_MyCustomActionBar"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        app:action_bar_title_text="自定义布局"
+        app:action_bar_title_text_color="#000000"
+        app:action_bar_button_text="返回"
+        app:action_bar_buttonBg_color="@drawable/my_clolor_selected"
+        app:action_bar_buttonBg_color2="@drawable/my_clolor_selected"
+        app:action_bar_titleBg_color="#F49462"
+        app:action_bar_button_color="#ffffff"
+        tools:layout_editor_absoluteY="0dp"
+        app:action_bar_button_text2="更多"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"></com.example.first_week_test.view.MyCustomActionBar>
 
 </android.support.constraint.ConstraintLayout>

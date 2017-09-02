@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyCustomActionBar">
+        <!--标题内容文字-->
+        <attr name="action_bar_title_text" format="string"/>
+        <!--字体大小-->
+        <attr name="action_bar_title_size" format="dimension"/>
+        <!--文字颜色-->
+        <attr name="action_bar_title_text_color" format="color"/>
+        <!--背景颜色-->
+        <attr name="action_bar_titleBg_color" format="color"/>
+
+
+
+        <!--按钮的设置-->
+
+        <!--按钮文字-->
+        <attr name="action_bar_button_text" format="string"/>
+        <!--字体大小-->
+        <attr name="action_bar_button_size" format="dimension"/>
+        <!--文字颜色-->
+        <attr name="action_bar_button_color" format="color"/>
+        <!--背景颜色-->
+        <attr name="action_bar_buttonBg_color" format="color"/>
+        <!--第二个按钮的文字-->
+        <attr name="action_bar_button_text2" format="string"/>
+        <!--第二个按钮的背景颜色-->
+        <attr name="action_bar_buttonBg_color2" format="color"/>
+
+    </declare-styleable>
+
+</resources>
