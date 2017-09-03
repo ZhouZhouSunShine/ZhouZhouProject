@@ -150,12 +150,12 @@ public class MyCustomActionBar extends LinearLayout{
         view_but2.setTextColor(buttonColor);
     }
 
-    //定义接口
-    private OnButtonClickListener mOnButtonClickListener;
-
+    //定义接口'
     public interface OnButtonClickListener{
         void OnMyClickListener(View view);
     }
+
+    private OnButtonClickListener mOnButtonClickListener;
 
     public void setOnButtonClickListener(OnButtonClickListener onButtonClickListener){
         mOnButtonClickListener = onButtonClickListener;
